@@ -6,3 +6,24 @@
     object-fit: contain;
     cursor: pointer;
 }
+
+.ck-content {
+    border: none !important;
+}
+
+.ck.ck-toolbar {
+    border: none !important;
+}
+
+.ck-editor__editable {
+    outline: none !important;
+}
+
+.ck.ck-editor__editable[role="textbox"]:focus {
+    border: none;
+    box-shadow: none !important;
+}
+
+.ck-powered-by {
+    display: none !important;
+}
