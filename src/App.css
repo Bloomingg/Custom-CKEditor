@@ -1,0 +1,8 @@
+.image-inline img {
+    aspect-ratio: auto !important;
+    max-width: 30vw !important;
+    max-height: 15vh !important;
+    width: auto !important;
+    object-fit: contain;
+    cursor: pointer;
+}
